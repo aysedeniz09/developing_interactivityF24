@@ -1,6 +1,6 @@
 # EMS 757 Interactive Media Design
 
-Welcome to the EMS 757 Demo Site for Fall 2024! This repository includes materials and resources for the Interactive Media Design course. Below is a summary of the main sections of this course.
+Welcome to the EMS 757 Fall 2024! This repository includes materials and resources for the Interactive Media Design course. Below is a summary of the main sections of this course.
 
 ## Table of Contents
 - [Resources](pages/resources.html)
