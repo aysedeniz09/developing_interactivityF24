@@ -4,7 +4,7 @@ Welcome to the EMS 757 Fall 2024! This repository includes materials and resourc
 
 ## Table of Contents
 - [Resources](pages/resources.html)
-- [Lectures](pages/lectures.html)
+- [Lectures](lectures/lectures.html)
 
 ## Home
 Explore the principles of interactivity, from design and function to its benefits. Gain hands-on experience in creating content-rich, user-centered interactive media projects through practical work in media technology, interaction design, and information architecture, with applications extending to web design, mobile apps, games, and beyond.
