@@ -17,6 +17,9 @@ All lectures will be available in [Lectures](https://github.com/aysedeniz09/deve
 - [Lecture 2: Interaction Design Principles]()
 - More lectures coming soon...
 
+## Assignments
+All Assignments are available in [Assignments](https://github.com/aysedeniz09/developing_interactivityF24/tree/main/Assignments).
+
 ## Instructor and Teaching Assistants
 
 ### Instructor
