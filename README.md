@@ -12,7 +12,10 @@ Explore the principles of interactivity, from design and function to its benefit
 Explore various course tools and resources to help you throughout the course. Check out the [resources page](pages/resources.html) for more information.
 
 ## Lectures
-All lectures will be available in [Blackboard](https://learn.bu.edu). 
+All lectures will be available in [Lectures](https://github.com/aysedeniz09/developing_interactivityF24/tree/main/Lectures). The content will be updated weekly:
+- [Lecture 1: Introduction to Interactive Media (RMarkdown)]()
+- [Lecture 2: Interaction Design Principles]()
+- More lectures coming soon...
 
 ## Instructor and Teaching Assistants
 
