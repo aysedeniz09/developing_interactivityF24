@@ -1,0 +1,391 @@
+---
+title: "The Changing Mediascape and Interactivity"
+subtitle: "COM EM757"
+author: "Dr. Ayse D. Lokmanoglu"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = TRUE,
+  dev = "svg",      
+  echo = TRUE,
+  message = FALSE, 
+  warning = FALSE,
+  fig.show = TRUE,
+  hiline = TRUE      
+)
+
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE,
+                      comment = "#>", highlight = TRUE,
+                      fig.align = "center")
+library(fontawesome)
+library(icons)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_duo_accent(
+  primary_color = "#264653",
+  secondary_color = "#2A9D8F",
+  inverse_header_color = "#F4A261",
+  base_font_size = "20px",
+  code_font_size = ".8rem",
+  header_font_google = google_font("Josefin Sans"),
+  text_font_google   = google_font("Montserrat", "300", "300i"),
+  code_font_google   = google_font("Fira Mono"),
+  extra_css = list(
+    ".small" = list("font-size" = ".78rem"),
+    ".big"  = list("font-size" = "1.2rem"),
+    ".small-code pre code" = list("font-size" = ".72rem"),
+    ".tiny-code pre code" = list("font-size" = ".6rem"),
+    "li" = list("padding" = "8px 0px 0px"),
+    "table th, table td" = list("padding" = "8px")
+  )
+)
+```
+
+```{r xaringan-extra, echo=FALSE, include=FALSE}
+xaringanExtra::use_clipboard(button_text = "Copy")
+xaringanExtra::use_search(show_icon = TRUE, case_sensitive = FALSE)
+xaringanExtra::style_search(match_background = "#264653")
+```
+
+
+## What is Interactivity?
+
+--
+
+Interactivity refers to the ways in which users can participate in and influence the media they engage with.
+
+--
+
+Types of Interactivity: 
+
+1. Reactive (simple feedback mechanisms)
+
+--
+
+2. Proactive (user-initiated interactions)
+
+--
+
+3. Mutual (two-way communication)
+
+---
+
+### Examples? 
+
+--
+* Websites, mobile apps, video games, social media
+
+.center[<iframe src="https://www.thesill.com/?utm_source=google-ads&utm_medium=paidsearch&utm_campaign=C3_BrandGeneral_Google_US_Brand_ROAS_AlwaysOn_Search_TheSill&utm_campaignid=21317171935&utm_adgroupid=162242596306&utm_term=sill%20plants&gad_source=1&gclid=CjwKCAjwmrqzBhAoEiwAXVpgojfJQEjSttotMpnJkfg4H5RIiOV1X__xp73ptfz1ZmHYDxfKQEgSZRoC12sQAvD_BwE" width="800" height="600" style="border:none;"></iframe>]
+
+---
+
+## Why is interactivity important?
+
+--
+
+From Rafaeli & Ariel (2007):
+
+.pull-left[
+* User Engagement
+
+   * Enhances user experience
+   * Increases engagement and retention
+   ]
+
+--
+
+.pull-right[
+* Feedback Mechanism:
+   * Allows for immediate user feedback
+   * Improves content through user input
+   ]
+
+---
+
+## Evolution of Media
+
+From Chaffee & Metzger (2001):
+
+.pull-left[
+Traditional Media
+`r icons::fontawesome("newspaper")`
+
+`r icons::fontawesome("tv")`
+
+* One-way communication, passive consumption
+
+]
+
+--
+
+.pull-right[
+New Media?
+`r icons::fontawesome("hashtag")`
+
+`r icons::fontawesome("podcast")`
+
+`r icons::fontawesome("headphones")`
+
+`r icons::fontawesome("mobile")`
+
+* Interactive, user-driven, real-time feedback
+
+]
+
+--
+
+How has the evolution from traditional to new media impacted your media consumption habits?
+
+--
+
+Can you think of an example where new media has significantly improved user engagement?
+
+
+---
+
+## Technology
+
+* Internet 
+
+--
+
+* Mobile devices
+
+--
+
+* Seamless access to content
+
+--
+
+* User-generated content & participation 
+
+--
+
+What role do mobile devices play in your daily media consumption?
+
+---
+
+## McLuhan (1964) - Medium is Message
+
+Theory! 
+
+.center[
+***The medium through which content is delivered is as significant as the content itself.***
+]
+
+--
+
+Questions from McLuhan:
+
+--
+
+* Hot and cool media? 
+
+--
+
+* Are distances irrelevant - global village? 
+
+---
+
+## Interactivity v New Media v Communication Theory
+
+--
+
+1.More personalized & user-participated/controlled content
+
+e.g.? 
+--
+Memes
+
+--
+
+2.New ways of engaging with audiences
+
+--
+
+* Demassification
+
+--
+
+* Asynchronicity
+
+
+---
+
+## Media Convergence
+
+***Blending of multiple media forms into one***
+
+from Napoli (2011). 
+
+--
+
+
+e.g. 
+--
+Facebook Messenger to post photos, send text, video call, buy AC
+
+--
+
+Users participate more! 
+
+--
+
+Democratization of content creation and distribution. 
+
+--
+
+e.g. TikTok
+
+---
+
+## Let's talk about the internet
+
+<iframe src="https://giphy.com/embed/VbnUQpnihPSIgIXuZv" width="384" height="480" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/computer-cat-wearing-glasses-VbnUQpnihPSIgIXuZv">via GIPHY</a></p>
+
+---
+
+#### What is the internet?
+
+
+[Wikipedia](https://en.wikipedia.org/wiki/Internet)
+
+"The Internet (or internet)[a] is the global system of interconnected computer networks that uses the Internet protocol suite (TCP/IP)[b] to communicate between networks and devices. It is a network of networks that consists of private, public, academic, business, and government networks of local to global scope, linked by a broad array of electronic, wireless, and optical networking technologies. The Internet carries a vast range of information resources and services, such as the interlinked hypertext documents and applications of the World Wide Web (WWW), electronic mail, telephony, and file sharing."
+
+--
+
+Internet Protocol (IP)
+
+* Every computer has an IP address
+
+You can find yours [WhatsMyIp](https://www.whatsmyip.org/)
+
+--
+
+Wikipedia notes: "This article is about the worldwide computer network. For the global system of pages accessed through URLs via the Internet, see World Wide Web."
+
+
+---
+
+## So... What is World Wide Web (WWW?)
+
+--
+
+Some quotes from the WWW: 
+
+"is a standardized system for accessing and navigating the internet" (Google Gemini accessed on 7/31/2024)
+
+--
+
+"are the pages you see when you're at a device and you're online" [(BBC Bitesize, 2019)](https://www.bbc.co.uk/newsround/av/47523993)
+
+---
+
+## Internet vs. WWW
+
+From [GeeksforGeeks.org](https://www.geeksforgeeks.org/difference-between-internet-and-www/) (GeeksforGeeks, 2020, accessed on 7/31/2024)
+
+.tiny[
+| S.No. | INTERNET                                                                 | WWW                                                              |
+|-------|--------------------------------------------------------------------------|------------------------------------------------------------------|
+| 1     | Internet is a global network of networks.                                | WWW stands for World Wide Web.                                   |
+| 2     | Internet is a means of connecting a computer to any other computer anywhere in the world. | World Wide Web which is a collection of information which is accessed via the Internet. |
+| 3     | Internet is infrastructure.                                              | WWW is service on top of that infrastructure.                    |
+| 4     | Internet can be viewed as a big book-store.                              | Web can be viewed as collection of books on that store.          |
+| 5     | At some advanced level, to understand we can think of the Internet as hardware. | At some advanced level, to understand we can think of the WWW as software. |
+| 6     | Internet is primarily hardware-based.                                    | WWW is more software-oriented as compared to the Internet.       |
+| 7     | It originated sometime in the late 1960s.                                | English scientist Tim Berners-Lee invented the World Wide Web in 1989. |
+| 8     | Internet is a superset of WWW.                                           | WWW is a subset of the Internet.                                 |
+| 9     | The first version of the Internet was known as ARPANET.                  | In the beginning, WWW was known as NSFNET.                       |
+| 10    | Internet uses IP addresses.                                              | WWW uses HTTP.                                                   |
+
+]
+
+---
+
+## Deconstruct WWW and Internet
+
+.big[
+URL - Uniform Resource Locator
+*or more commonly known as web address*
+]
+
+#### IP's are numbers for internet (cause internet knows numbers)
+
+#### Domain Name System (DNS) - translates IP's to names for us humans
+
+This is how we ask for a webpage:
+
+| Protocol | Host               | Path    |
+|----------|--------------------|---------|
+| https    | 2024.philemerge.com | /demo2/ |
+
+.center[
+**Protocol or HTTP (HyperText Transfer Protocol)**
+how to communicate with the web
+
+**Host**
+who hosts the website
+
+**Path**
+what do we want from the server/host? 
+]
+
+---
+
+## So what are we going to learn this semester for a webpage?
+.center[
+![CS Discoveries](https://cdo-curriculum.s3.amazonaws.com/media/uploads/CS-Discoveries---Semester-1.png)]
+
+
+
+from: https://studio.code.org/docs/csd/style_sheets/index.html
+
+---
+
+## Content
+
+.center[
+#### Is all yours 
+]
+
+---
+
+## HTML & CSS
+
+We are going to learn
+
+## Wordpress
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

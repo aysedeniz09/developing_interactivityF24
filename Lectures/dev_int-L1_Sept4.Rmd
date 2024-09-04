@@ -1,0 +1,340 @@
+---
+title: "Developing Interactivity (COM EM757)"
+subtitle: "Introduction"
+author: "Dr. Ayse D. Lokmanoglu"
+date: "Fall 2024"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width = 5,    # Further reduce width
+  fig.height = 3,   # Further reduce height
+  fig.retina = 2,   
+  out.width = "70%", # Adjust width to a smaller percentage
+  out.height = "auto",
+  dev = "svg",      
+  echo = TRUE,
+  message = FALSE, 
+  warning = FALSE,
+  fig.align = "center"
+)
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE,
+                      comment = "#>", highlight = TRUE,
+                      fig.align = "center")
+library(fontawesome)
+library(icons)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_duo_accent(
+  primary_color = "#264653",
+  secondary_color = "#2A9D8F",
+  inverse_header_color = "#F4A261",
+  base_font_size = "20px",
+  code_font_size = ".8rem",
+  header_font_google = google_font("Josefin Sans"),
+  text_font_google   = google_font("Montserrat", "300", "300i"),
+  code_font_google   = google_font("Fira Mono"),
+  extra_css = list(
+    ".small" = list("font-size" = ".78rem"),
+    ".big"  = list("font-size" = "1.2rem"),
+    ".small-code pre code" = list("font-size" = ".72rem"),
+    ".tiny-code pre code" = list("font-size" = ".6rem"),
+    "li" = list("padding" = "8px 0px 0px"),
+    "table th, table td" = list("padding" = "8px")
+  )
+)
+```
+
+```{r xaringan-extra, echo=FALSE, include=FALSE}
+xaringanExtra::use_clipboard(button_text = "Copy")
+xaringanExtra::use_search(show_icon = TRUE, case_sensitive = FALSE)
+xaringanExtra::style_search(match_background = "#264653")
+```
+
+## Welcome!
+
+### About me
+
+<iframe 
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d408273.77067337086!2d34.56739072583989!3d36.92289883606826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1527de5d1a44b753%3A0xfcba86596ef20940!2sTarsus%2C%20Mersin%2C%20T%C3%BCrkiye!5e0!3m2!1sen!2sus!4v1718578535992!5m2!1sen!2sus" width="600" 
+height="450" 
+style="border:0;" 
+allowfullscreen="" 
+loading="lazy" 
+referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+
+---
+
+### About our TA's
+
+### Dongpeng Huang
+
+<div style="display: flex; justify-content: space-between; align-items: flex-start; margin-top: 20px;">
+  <div style="flex: 1;">
+    <h4>EDUCATION</h4>
+    <p style="font-size: 0.9em; margin-bottom: 10px;">
+      PhD, Emerging Media Studies, <a href="https://www.bu.edu/" target="_blank">Boston University, U.S.</a>
+    </p>
+    <p style="font-size: 0.9em; margin-bottom: 10px;">
+      MA, Emerging Media Studies, <a href="https://www.bu.edu/" target="_blank">Boston University, U.S.</a>
+    </p>
+    <p style="font-size: 0.9em; margin-bottom: 10px;">
+      BA, English, <a href="https://ev.buaa.edu.cn/" target="_blank">Beihang University, China</a>
+    </p>
+  </div>
+
+  <div style="flex: 1;">
+    <h4>WORK EXPERIENCE</h4>
+    <p style="font-size: 0.9em; margin-bottom: 10px;">
+      <strong>Instructor of Record</strong>, Boston University
+    </p>
+    <p style="font-size: 0.9em; margin-bottom: 10px;">
+      <strong>Research Assistant</strong>, Boston University
+    </p>
+    <p style="font-size: 0.9em; margin-bottom: 10px;">
+      <strong>Content Editor</strong>, People’s Daily (人民日报)
+    </p>
+  </div>
+</div>
+
+<div style="margin-top: 20px;">
+  <h4>PUBLICATIONS</h4>
+  <p style="font-size: 0.9em; margin-bottom: 10px;">
+    Huang, D., Huang, Y., and Cummings. (Pending) Exploring the Integration and Utilization of Generative AI in Formative E-Assessments: A Case Study in Higher Education. <em>Australasian Journal of Educational Technology.</em>
+  </p>
+</div>
+
+---
+
+### Jessy Wang
+
+<div style="display: flex; justify-content: space-between; align-items: flex-start; margin-top: 20px;">
+  <div style="flex: 1;">
+    <h4>EDUCATION</h4>
+    <p style="font-size: 0.9em; margin-bottom: 10px;">
+      PhD, Emerging Media Studies, 
+      <a href="https://www.bu.edu/" target="_blank">Boston University, U.S.</a>
+    </p>
+    <p style="font-size: 0.9em; margin-bottom: 10px;">
+      MA, Media, Culture, and Communication, 
+      <a href="https://www.nyu.edu/" target="_blank">New York University, U.S.</a>
+    </p>
+    <p style="font-size: 0.9em; margin-bottom: 10px;">
+      BA, Public Relations and Advertising, 
+      <a href="https://www.shu.edu.tw/english/" target="_blank">Shih-Hsin University, Taiwan</a>
+    </p>
+  </div>
+
+  <div style="flex: 1;">
+    <h4>WORK EXPERIENCE</h4>
+    <p style="font-size: 0.9em; margin-bottom: 10px;">
+      <strong>Research Assistant</strong>, Advocacy and Community-Based Trauma Studies Lab of NYU Applied Psychology
+    </p>
+    <p style="font-size: 0.9em; margin-bottom: 10px;">
+      <strong>Crisis Counselor</strong>, New York State Office of Mental Health
+    </p>
+    <p style="font-size: 0.9em; margin-bottom: 10px;">
+      <strong>Media Strategist</strong>, Ogilvy Taiwan
+    </p>
+  </div>
+</div>
+
+
+---
+
+## How to reach me 
+
+- `r fontawesome::fa("envelope", fill = "#000000", height = "40px")` **Email**: [alokman@bu.edu](mailto:alokman@bu.edu)
+  
+- `r fontawesome::fa("building", fill = "#000000", height = "40px")` **Office**: 
+  - Office Hours: Mondays 2:30 pm – 5:00 pm (by appointment)
+  
+  - 111 Cummings Mall Room 102
+  
+- `r fontawesome::fa("computer", fill = "#000000", height = "40px")` **Zoom**: [https://bostonu.zoom.us/my/alokman](https://bostonu.zoom.us/my/alokman)
+
+---
+
+## Course Overview
+
+- Gain a holistic view on the design of an interactive media project.
+
+- Develop theoretical and practical understanding of design principles.
+
+- Demonstrate competency in using appropriate tools and software to design interactive work.
+
+---
+
+## Course Structure
+
+#### Monday's - Lecture
+
+#### Wednesday's - Tutorials
+
+
+---
+
+## Sylabus
+
+Syllabus Links:
+
+* [GitHub](https://github.com/aysedeniz09/developing_interactivityF24/tree/main)
+
+* [Blackboard](http://learn.bu.edu/)
+
+All readings and lectures will be on Blackboard.
+
+<img src="images/blackboard.jpg" style="width: 50%; height: auto; display: block; margin-left: auto; margin-right: auto;">
+
+---
+
+## Course Requirements
+
+.pull-left[
+#### Individual
+
+
+Class participation & discussion (5%)
+
+
+
+Instagram Participation (5%)
+
+
+
+Ethnographic interview report (5%)
+
+
+
+Web design project (30%)
+
+]
+
+--
+
+.pull-right[
+#### Group Web Project (GWP)
+
+
+
+Proposal (10%)
+
+
+
+User research and modeling report (15%)
+
+
+
+Website prototype and report (25%)
+
+]
+
+---
+
+## Group Projects
+
+Group assignments on Blackboard
+
+<iframe src="https://giphy.com/embed/K0aZM2iKIA4aA" width="480" height="360" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/i-just-felt-like-doing-it-K0aZM2iKIA4aA">via GIPHY</a></p>
+
+
+---
+
+## GWP # 1: Proposal
+
+<img src="images/proposal.jpeg" style="width: 50%; height: auto; display: block; margin-left: auto; margin-right: auto;">
+
+
+---
+
+<iframe src="pdfs/F24_EM757 Group assignment1_Web proposal.pdf" width="100%" height="600px" style="border:none;"></iframe>
+
+---
+
+## GWP # 2: User Research Report
+
+<iframe src="pdfs/F24_EM757_Group_assignment2_User_research_report.pdf" width="100%" height="600px" style="border:none;"></iframe>
+
+---
+
+## GWP # 3: Website Prototype and Report
+
+<iframe src="pdfs/F24_EM757_Group_assignment3_Final_report.pdf" width="100%" height="600px" style="border:none;"></iframe>
+
+---
+
+## Individual Assignments 1
+
+
+### Ethnographic interview report
+
+<iframe src="pdfs/F24_EM757 Individual assignment1_Ethnographic interview.pdf" width="100%" height="600px" style="border:none;"></iframe>
+
+
+---
+
+## Individual Assignments 2
+
+### Web design project
+
+<iframe src="pdfs/F24_EM757 Individual assignment2_Web design.pdf" width="100%" height="600px" style="border:none;"></iframe>
+
+---
+
+#### Web design project example
+
+[Demo website](https://2024.philemerge.com/section_a/assignment/Demo/index.html):
+
+<iframe src="https://2024.philemerge.com/section_a/assignment/Demo/index.html" width="100%" height="600px" style="border:none;"></iframe>
+
+---
+
+## Instagram Participation
+
+<img src="images/IMG_7625.jpeg" style="width: 30%; height: auto; display: block; margin-left: auto; margin-right: auto;">
+
+.center[
+*Note: If you prefer not to use your personal account, please reach out to me or our TAs. We can help you set up a dummy account.*
+]
+
+---
+
+## Tools for class
+
+1. [Chrome](https://www.google.com/chrome/): a browser to view and debug webpages
+
+2. Text Editor:
+
+* [VSCode](https://code.visualstudio.com/): a text editor to write HTML/CSS/JS/SQL (with various helpful packages available)
+
+*We will go through set-up instructions on Wednesday's class*
+
+or any other such as 
+
+* [Atom](https://atom-editor.cc/)
+
+* [Brackets](https://brackets.io/) 
+
+* [Sublime Text](https://www.sublimetext.com/)
+
+3.Content Management System (CMS): 
+
+* [WordPress](https://wordpress.com/)
+
+
+
+
+
+
+
