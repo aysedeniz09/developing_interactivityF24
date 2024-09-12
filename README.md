@@ -12,9 +12,9 @@ Explore the principles of interactivity, from design and function to its benefit
 Explore various course tools and resources to help you throughout the course. Check out the [resources page](pages/resources.html) for more information.
 
 ## Lectures
-All lectures will be available in [Lectures](https://github.com/aysedeniz09/developing_interactivityF24/tree/main/Lectures). The content will be updated weekly:
-- [Lecture 1: Introduction to Interactive Media (RMarkdown)]()
-- [Lecture 2: Interaction Design Principles]()
+All lectures will be available in [Lectures][https://github.com/aysedeniz09/developing_interactivityF24/tree/main/Lectures](https://github.com/aysedeniz09/developing_interactivityF24/tree/main/Lectures). The content will be updated weekly:
+- [Lecture 1: Introduction to Interactive Media (Folder)](https://github.com/aysedeniz09/developing_interactivityF24/tree/main/Lectures/Week1)
+- [Lecture 2: The Changing Mediascape and Interactivity](https://github.com/aysedeniz09/developing_interactivityF24/tree/main/Lectures/Week2)
 - More lectures coming soon...
 
 ## Assignments
