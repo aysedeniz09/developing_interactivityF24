@@ -1,0 +1,214 @@
+---
+title: "Focus Group Workshop"
+subtitle: "COM EM757"
+author: "Dr. Ayse D. Lokmanoglu"
+date: "September 25th, 2024"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = TRUE,
+  dev = "svg",      
+  echo = TRUE,
+  message = FALSE, 
+  warning = FALSE,
+  fig.show = TRUE,
+  hiline = TRUE      
+)
+
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE,
+                      comment = "#>", highlight = TRUE,
+                      fig.align = "center")
+library(fontawesome)
+library(icons)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_duo_accent(
+  primary_color = "#264653",
+  secondary_color = "#2A9D8F",
+  inverse_header_color = "#F4A261",
+  base_font_size = "20px",
+  code_font_size = ".8rem",
+  header_font_google = google_font("Merriweather"),
+  text_font_google   = google_font("Noto Merriweather", "300", "300i"),
+  code_font_google   = google_font("Fira Mono"),
+  extra_css = list(
+    ".small" = list("font-size" = ".78rem"),
+    ".big"  = list("font-size" = "1.2rem"),
+    ".small-code pre code" = list("font-size" = ".72rem"),
+    ".tiny-code pre code" = list("font-size" = ".6rem"),
+    "li" = list("padding" = "8px 0px 0px"),
+    "table th, table td" = list("padding" = "8px")
+  )
+)
+```
+
+```{r xaringan-extra, echo=FALSE, include=FALSE}
+xaringanExtra::use_clipboard(button_text = "Copy")
+xaringanExtra::use_search(show_icon = TRUE, case_sensitive = FALSE)
+xaringanExtra::style_search(match_background = "#264653")
+```
+
+<style>
+  table {
+    font-size: 10px; /* Adjust this value to make the font smaller or larger */
+  }
+</style>
+
+## Focus Groups
+
+"a demographically diverse group of people assembled to participate in a guided discussion about a particular product before it is launched, or to provide ongoing feedback on a political campaign, television series, etc." from Oxford Languages
+<br>
+<br>
+<br>
+"A focus group is a group interview involving a small number (sometimes up to ten) of demographically predefined participants. Their reactions to specific researcher/evaluator-posed questions are studied. Focus groups are used in market research to better understand people's reactions to products or services or participants' perceptions of shared experiences." from Focus group. (2024). In Wikipedia. https://en.wikipedia.org/w/index.php?title=Focus_group&oldid=1241219300
+
+---
+
+## From JHU 
+
+[Focus Group Link JHU](https://studentaffairs.jhu.edu/viceprovost/assessment-analysis/assessment-tools-methods/focus-groups/) 
+
+---
+
+## Focus Group Exercise
+
+How artificial intelligence (AI) is influencing the classroom environment?
+<br>
+<br>
+- **Round 1 Discussion:** 20 minutes
+<br>
+
+- **Debriefing 1:** 10 minutes
+<br>
+
+- **Round 2 Discussion:** 20 minutes
+<br>
+
+- **Debriefing 2:** 10 minutes
+<br>
+
+- **Whole-class Reflection:** 20 minutes
+<br>
+
+---
+
+## Round 1 Impact of AI on Learning and Engagement
+
+Questions for Round 1:
+<br>
+<br>
+- How do AI tools (like adaptive learning platforms, chatbots, or virtual tutors) impact your engagement with course material?
+<br>
+<br>
+- Are these tools helping to personalize your learning experience, and if so, how?
+<br>
+<br>
+- Do AI tools make learning more interactive or engaging, or do they create new challenges in staying focused?
+
+---
+
+<br>
+<br>
+<br>
+<br>
+.center[
+Round 1 Groups
+<br>
+<br>
+Each group select a **moderator** and a **note-taker**.
+<br>
+<br>
+**Discussion** - Moderators guide the discussion using the prompts, while note-takers capture key insights
+<br>
+<br>
+*15 minutes for discussion + 5 minutes for group summary*
+]
+<br>
+<br>
+---
+
+## Debriefing 1 
+
+Each group’s **note-taker** present a 2-minute summary of the key findings
+<br>
+<br>
+### Class Discussion:
+- What common themes emerged from different groups?
+<br>
+<br>
+- How does AI impact engagement across various learning contexts?
+<br>
+<br>
+
+---
+
+## Round 2: Ethical and Practical Concerns
+
+Some possible questions: 
+<br>
+<br>
+- How do you feel about AI grading assignments or giving feedback?
+<br>
+<br>
+- What privacy or data concerns do you have with AI collecting student data?
+<br>
+<br>
+- Could AI impact the role of teachers or the quality of education?
+<br>
+<br>
+
+---
+
+<br>
+<br>
+<br>
+<br>
+.center[
+Round 2 Groups 
+<br>
+**New** new moderator and note-taker
+<br>
+<br>
+**Discussion** - Focus on ethical and practical concerns, with new prompts
+<br>
+<br>
+*15 minutes for discussion + 5 minutes for group summary*
+]
+<br>
+<br>
+---
+
+## Debriefing 2 
+
+Each group’s **note-taker** present a 2-minute summary of the key findings
+<br>
+<br>
+### Class Discussion:
+- What were the main ethical concerns raised?
+<br>
+<br>
+- How do students feel about AI’s growing role in the classroom?
+
+---
+
+## Reflection & Wrap-Up (20 minutes)
+
+### Reflection Questions:
+
+- What were the most surprising or insightful points from your group discussions?
+- How did moderating differ from participating?
+- What are your overall thoughts on AI in education, based on the discussions?
+
