@@ -13,9 +13,13 @@ Explore various course tools and resources to help you throughout the course. Ch
 
 ## Lectures
 All lectures will be available in [Lectures](https://github.com/aysedeniz09/developing_interactivityF24/tree/main/Lectures)(https://github.com/aysedeniz09/developing_interactivityF24/tree/main/Lectures). The content will be updated weekly:
-- [Lecture 1: Introduction to Interactive Media (Folder)](https://github.com/aysedeniz09/developing_interactivityF24/tree/main/Lectures/Week1)
-- [Lecture 2: The Changing Mediascape and Interactivity](https://github.com/aysedeniz09/developing_interactivityF24/tree/main/Lectures/Week2)
-- More lectures coming soon...
+- [Week 1: Introduction to Interactive Media (Folder)](https://github.com/aysedeniz09/developing_interactivityF24/tree/main/Lectures/Week1)
+- [Week 2: The Changing Mediascape and Interactivity](https://github.com/aysedeniz09/developing_interactivityF24/tree/main/Lectures/Week2)
+- [Week 3: An overview of design concepts and process](https://github.com/aysedeniz09/developing_interactivityF24/tree/main/Lectures/Week3)
+- [Week 4: Design research](https://github.com/aysedeniz09/developing_interactivityF24/tree/main/Lectures/Week4)
+- [Week 5: Persona & Scenario](https://github.com/aysedeniz09/developing_interactivityF24/tree/main/Lectures/Week5)
+- [Week 6: Cogntive Aspects of Web Basics](https://github.com/aysedeniz09/developing_interactivityF24/tree/main/Lectures/Week6)
+- [Week 7: HTML](https://github.com/aysedeniz09/developing_interactivityF24/tree/main/Lectures/Week7)
 
 ## Assignments
 All Assignments are available in [Assignments](https://github.com/aysedeniz09/developing_interactivityF24/tree/main/Assignments).
