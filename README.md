@@ -20,6 +20,7 @@ All lectures will be available in [Lectures](https://github.com/aysedeniz09/deve
 - [Week 5: Persona & Scenario](https://github.com/aysedeniz09/developing_interactivityF24/tree/main/Lectures/Week5)
 - [Week 6: Cogntive Aspects of Web Basics](https://github.com/aysedeniz09/developing_interactivityF24/tree/main/Lectures/Week6)
 - [Week 7: HTML](https://github.com/aysedeniz09/developing_interactivityF24/tree/main/Lectures/Week7)
+- [Week 8: Web design: color and typeface](https://github.com/aysedeniz09/developing_interactivityF24/tree/main/Lectures/Week8)
 
 ## Assignments
 All Assignments are available in [Assignments](https://github.com/aysedeniz09/developing_interactivityF24/tree/main/Assignments).
