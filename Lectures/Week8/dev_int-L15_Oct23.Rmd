@@ -471,7 +471,7 @@ BU is fun as well.
 ```css
 /* styles.css */
 
-#css {
+#EMS {
 width: 70%;
 height: 50px;
 }
@@ -518,7 +518,7 @@ BU is fun as well.
 ```css
 /* styles.css */
 
-#css {
+#EMS {
 width: 70%;
 height: 50px;
 }
