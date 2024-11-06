@@ -96,7 +96,7 @@ xaringanExtra::style_search(match_background = "#264653")
 - You can usually set it up through File --->  Site manager; or through “Quickconnect”
    - Domain/Host: 2024.philemerge.com
    - Port: 21
-  - Username and password in the [google doc]((https://docs.google.com/spreadsheets/d/1higBc6s4X7gOxslW2SvmVBFUVVkSrIV6tvxb1YclcYI/edit?usp=sharing)! 
+  - Username and password in the google doc! 
   
 ---
 
