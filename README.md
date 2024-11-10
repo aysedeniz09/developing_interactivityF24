@@ -23,6 +23,7 @@ All lectures will be available in [Lectures](https://github.com/aysedeniz09/deve
 - [Week 8: Web design: color and typeface](https://github.com/aysedeniz09/developing_interactivityF24/tree/main/Lectures/Week8)
 - [Week 9: Information Architecture](https://github.com/aysedeniz09/developing_interactivityF24/tree/main/Lectures/Week9)
 - [Week 10: From research to strategy](https://github.com/aysedeniz09/developing_interactivityF24/tree/main/Lectures/Week10)
+- [Week 11: Online audience metrics](https://github.com/aysedeniz09/developing_interactivityF24/tree/main/Lectures/Week11)
 
 ## Assignments
 All Assignments are available in [Assignments](https://github.com/aysedeniz09/developing_interactivityF24/tree/main/Assignments).
